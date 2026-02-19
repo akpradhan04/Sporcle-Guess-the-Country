@@ -1,12 +1,18 @@
 import time
-import config
 import json
+import tkinter as tk
+import config
 
 
 class CountriesGame:
     def __init__(self):
+        self.root = tk.Tk()
+        self.root.title(config.WINDOW_TITLE)
+
         self.countries_data = self.load_countries()
         self.countries_lookup = self.build_lookup()
+
+        self.root.mainloop()
 
     def load_countries(self):
         with open('countries.json', 'r', encoding = 'utf-8') as file:
@@ -30,5 +36,3 @@ class CountriesGame:
 
 if __name__ == "__main__":
     game = CountriesGame()
-    print(game.load_countries())
-    print(game.build_lookup())
