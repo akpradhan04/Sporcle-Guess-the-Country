@@ -2,24 +2,33 @@ import time
 import config
 import json
 
-def load_countries():
-    with open('countries.json', 'r', encoding = 'utf-8') as file:
-        return json.load(file)
-    
-def build_lookup(countries_data):
-    lookup = {}
 
-    for country in countries_data:
-        accepted_country_name = country["name"]
+class CountriesGame:
+    def __init__(self):
+        self.countries_data = self.load_countries()
+        self.countries_lookup = self.build_lookup()
 
-        # Official Country Name
-        lookup[accepted_country_name.lower()] = accepted_country_name
+    def load_countries(self):
+        with open('countries.json', 'r', encoding = 'utf-8') as file:
+            return json.load(file)
+        
+    def build_lookup(self):
+        countries_lookup = {}
 
-        # Country Alias
-        for alias in country["aliases"]:
-            lookup[alias.lower()] = accepted_country_name
+        for country in self.countries_data:
+            accepted_country_name = country["name"]
 
-    return lookup
+            # Official Country Name
+            countries_lookup[accepted_country_name.lower()] = accepted_country_name
 
-countries_data = load_countries()
-print(build_lookup(countries_data))
+            # Country Alias
+            for alias in country["aliases"]:
+                countries_lookup[alias.lower()] = accepted_country_name
+
+        return countries_lookup
+
+
+if __name__ == "__main__":
+    game = CountriesGame()
+    print(game.load_countries())
+    print(game.build_lookup())
