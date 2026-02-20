@@ -15,6 +15,7 @@ class CountriesGame:
         self.countries_lookup = self.build_lookup()
 
         self.setup_ui()
+        self.update_timer()
 
         self.root.mainloop()
 
@@ -55,6 +56,18 @@ class CountriesGame:
         self.listbox = tk.Listbox(self.root, width=50, height=20)
         self.listbox.pack()
 
+    def update_timer(self):
+        remaining = config.TIME_LIMIT - int(time.time() - self.start_time)
+
+        if remaining <= 0:
+            pass
+
+        minutes = remaining // 60
+        seconds = remaining % 60
+
+        self.timer_label.config(text=f"{minutes:02}:{seconds:02}")
+
+        self.root.after(1000, self.update_timer)
 
 if __name__ == "__main__":
     game = CountriesGame()
