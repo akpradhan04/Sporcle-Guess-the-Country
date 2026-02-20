@@ -60,7 +60,8 @@ class CountriesGame:
         remaining = config.TIME_LIMIT - int(time.time() - self.start_time)
 
         if remaining <= 0:
-            pass
+            self.end_game(self)
+            return
 
         minutes = remaining // 60
         seconds = remaining % 60
@@ -68,6 +69,9 @@ class CountriesGame:
         self.timer_label.config(text=f"{minutes:02}:{seconds:02}")
 
         self.root.after(1000, self.update_timer)
+
+    def end_game(self):
+        pass
 
 if __name__ == "__main__":
     game = CountriesGame()
