@@ -59,6 +59,9 @@ class CountriesGame:
         self.listbox = tk.Listbox(self.root, width=50, height=20)
         self.listbox.pack()
 
+        self.give_up_button = tk.Button(self.root, text= "Give Up", command=self.end_game)
+        self.give_up_button.pack()
+
         self.entry.bind("<KeyRelease>", self.check_guess)
 
     def update_timer(self):
