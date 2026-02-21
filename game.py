@@ -2,6 +2,7 @@ import time
 import json
 import tkinter as tk
 import config
+from tkinter import messagebox
 
 
 class CountriesGame:
@@ -13,6 +14,8 @@ class CountriesGame:
 
         self.countries_data = self.load_countries()
         self.countries_lookup = self.build_lookup()
+
+        self.guessed = set()
 
         self.setup_ui()
         self.update_timer()
@@ -56,6 +59,8 @@ class CountriesGame:
         self.listbox = tk.Listbox(self.root, width=50, height=20)
         self.listbox.pack()
 
+        self.entry.bind("<KeyRelease>", self.check_guess)
+
     def update_timer(self):
         remaining = config.TIME_LIMIT - int(time.time() - self.start_time)
 
@@ -70,8 +75,43 @@ class CountriesGame:
 
         self.root.after(1000, self.update_timer)
 
+    def check_guess(self, event):
+        text = self.entry.get().strip().lower()
+
+        if text in self.countries_lookup:
+            country_name = self.countries_lookup[text]
+
+            if country_name not in self.guessed:
+                self.guessed.add(country_name)
+
+                self.listbox.insert(tk.END, country_name)
+
+                self.counter_label.config(
+                    text=f"{len(self.guessed)} / {len(self.countries_data)}"
+                )
+
+                self.entry.delete(0, tk.END)
+
+                if len(self.guessed) == len(self.countries_data):
+                    self.end_game()
+
+
     def end_game(self):
-        pass
+        missed = [
+            country["name"]
+            for country in self.countries_data
+            if country["name"] not in self.guessed
+        ]
+
+        message = f"You got {len(self.guessed)} / {len(self.countries_data)}\n\n"
+
+        if missed:
+            message += "Missed:\n" + "\n".join(missed)
+        else:
+            message += "PERFECT SCORE 🔥"
+
+        messagebox.showinfo("Game Over", message)
+        self.root.destroy()
 
 if __name__ == "__main__":
     game = CountriesGame()
