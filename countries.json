@@ -1,11 +1,1080 @@
 [
-    { "name": "United States",
-      "aliases": ["USA", "US", "America"],
-      "continent": "North America" 
+    {
+        "name": "Afghanistan",
+        "aliases": [],
+        "continent": "Asia"
     },
-    { "name": "United Kingdom",
-      "aliases": ["UK"],
-      "continent": "Europe" 
+    {
+        "name": "Albania",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Algeria",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Andorra",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Angola",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "aliases": [
+            "Antigua"
+        ],
+        "continent": "North America"
+    },
+    {
+        "name": "Argentina",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Armenia",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Australia",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Austria",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Azerbaijan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Bahamas",
+        "aliases": [
+            "The Bahamas"
+        ],
+        "continent": "North America"
+    },
+    {
+        "name": "Bahrain",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Bangladesh",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Barbados",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Belarus",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Belgium",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Belize",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Benin",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Bhutan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Bolivia",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "aliases": [
+            "Bosnia"
+        ],
+        "continent": "Europe"
+    },
+    {
+        "name": "Botswana",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Brazil",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Brunei",
+        "aliases": [
+            "Brunei Darussalam"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Bulgaria",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Burkina Faso",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Burundi",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Cabo Verde",
+        "aliases": [
+            "Cape Verde"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Cambodia",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Cameroon",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Canada",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Central African Republic",
+        "aliases": [
+            "CAR"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Chad",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Chile",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "China",
+        "aliases": [
+            "PRC",
+            "People's Republic of China"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Colombia",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Comoros",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Congo",
+        "aliases": [
+            "Republic of the Congo"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Costa Rica",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Croatia",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Cuba",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Cyprus",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Czechia",
+        "aliases": [
+            "Czech Republic"
+        ],
+        "continent": "Europe"
+    },
+    {
+        "name": "Democratic Republic of the Congo",
+        "aliases": [
+            "DRC"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Denmark",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Djibouti",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Dominica",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Dominican Republic",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Ecuador",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Egypt",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "El Salvador",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Equatorial Guinea",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Eritrea",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Estonia",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Eswatini",
+        "aliases": [
+            "Swaziland"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Ethiopia",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Fiji",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Finland",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "France",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Gabon",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Gambia",
+        "aliases": [
+            "The Gambia"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Georgia",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Germany",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Ghana",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Greece",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Grenada",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Guatemala",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Guinea",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Guinea-Bissau",
+        "aliases": [
+            "Guinea Bissau"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Guyana",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Haiti",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Honduras",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Hungary",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Iceland",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "India",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Indonesia",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Iran",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Iraq",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Ireland",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Israel",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Italy",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Ivory Coast",
+        "aliases": [
+            "Cote d'Ivoire",
+            "Côte d'Ivoire",
+            "Cote dIvoire",
+            "Côte dIvoire"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Jamaica",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Japan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Jordan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Kazakhstan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Kenya",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Kiribati",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Kuwait",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Kyrgyzstan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Laos",
+        "aliases": [
+            "Lao PDR"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Latvia",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Lebanon",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Lesotho",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Liberia",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Libya",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Liechtenstein",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Lithuania",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Luxembourg",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Madagascar",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Malawi",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Malaysia",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Maldives",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Mali",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Malta",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Marshall Islands",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Mauritania",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Mauritius",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Mexico",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Micronesia",
+        "aliases": [
+            "Federated States of Micronesia"
+        ],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Moldova",
+        "aliases": [
+            "Republic of Moldova"
+        ],
+        "continent": "Europe"
+    },
+    {
+        "name": "Monaco",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Mongolia",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Montenegro",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Morocco",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Mozambique",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Myanmar",
+        "aliases": [
+            "Burma"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Namibia",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Nauru",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Nepal",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Netherlands",
+        "aliases": [
+            "Holland"
+        ],
+        "continent": "Europe"
+    },
+    {
+        "name": "New Zealand",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Nicaragua",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Niger",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Nigeria",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "North Korea",
+        "aliases": [
+            "DPRK"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "North Macedonia",
+        "aliases": [
+            "Macedonia"
+        ],
+        "continent": "Europe"
+    },
+    {
+        "name": "Norway",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Oman",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Pakistan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Palau",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Palestine",
+        "aliases": [
+            "State of Palestine"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Panama",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Papua New Guinea",
+        "aliases": [
+            "PNG"
+        ],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Paraguay",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Peru",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Philippines",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Poland",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Portugal",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Qatar",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Romania",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Russia",
+        "aliases": [
+            "Russian Federation"
+        ],
+        "continent": "Europe/Asia"
+    },
+    {
+        "name": "Rwanda",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "aliases": [
+            "St Kitts and Nevis",
+            "St. Kitts and Nevis"
+        ],
+        "continent": "North America"
+    },
+    {
+        "name": "Saint Lucia",
+        "aliases": [
+            "St. Lucia",
+            "St Lucia"
+        ],
+        "continent": "North America"
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "aliases": [
+            "St. Vincent and the Grenadines",
+            "St Vincent and the Grenadines"
+        ],
+        "continent": "North America"
+    },
+    {
+        "name": "Samoa",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "San Marino",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "aliases": [
+            "São Tomé and Príncipe"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Saudi Arabia",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Senegal",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Serbia",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Seychelles",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Sierra Leone",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Singapore",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Slovakia",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Slovenia",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Solomon Islands",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Somalia",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "South Africa",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "South Korea",
+        "aliases": [
+            "Republic of Korea"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "South Sudan",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Spain",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Sri Lanka",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Sudan",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Suriname",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Sweden",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Switzerland",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "Syria",
+        "aliases": [
+            "Syrian Arab Republic"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Taiwan",
+        "aliases": [
+            "Republic of China"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Tajikistan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Tanzania",
+        "aliases": [
+            "United Republic of Tanzania"
+        ],
+        "continent": "Africa"
+    },
+    {
+        "name": "Thailand",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Timor-Leste",
+        "aliases": [
+            "East Timor",
+            "Timor Leste"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Togo",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Tonga",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "aliases": [],
+        "continent": "North America"
+    },
+    {
+        "name": "Tunisia",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Turkey",
+        "aliases": [
+            "Türkiye",
+            "Turkiye"
+        ],
+        "continent": "Europe/Asia"
+    },
+    {
+        "name": "Turkmenistan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Tuvalu",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Uganda",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Ukraine",
+        "aliases": [],
+        "continent": "Europe"
+    },
+    {
+        "name": "United Arab Emirates",
+        "aliases": [
+            "UAE"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "United Kingdom",
+        "aliases": [
+            "UK",
+            "Britain",
+            "Great Britain"
+        ],
+        "continent": "Europe"
+    },
+    {
+        "name": "United States",
+        "aliases": [
+            "USA",
+            "US",
+            "America"
+        ],
+        "continent": "North America"
+    },
+    {
+        "name": "Uruguay",
+        "aliases": [],
+        "continent": "South America"
+    },
+    {
+        "name": "Uzbekistan",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Vanuatu",
+        "aliases": [],
+        "continent": "Oceania"
+    },
+    {
+        "name": "Vatican City",
+        "aliases": [
+            "Holy See"
+        ],
+        "continent": "Europe"
+    },
+    {
+        "name": "Venezuela",
+        "aliases": [
+            "Venezuela (Bolivarian Republic of)"
+        ],
+        "continent": "South America"
+    },
+    {
+        "name": "Vietnam",
+        "aliases": [
+            "Viet Nam"
+        ],
+        "continent": "Asia"
+    },
+    {
+        "name": "Yemen",
+        "aliases": [],
+        "continent": "Asia"
+    },
+    {
+        "name": "Zambia",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Zimbabwe",
+        "aliases": [],
+        "continent": "Africa"
+    },
+    {
+        "name": "Kosovo",
+        "aliases": [],
+        "continent": "Europe"
     }
-
 ]
